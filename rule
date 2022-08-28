@@ -1,0 +1,34 @@
+id・classの場合
+「➀分類」-「➁要素」
+news
+news-list
+news-list-item
+
+分類
+〜について about
+仕事・任務 work
+製品 product
+サービス service
+新着情報 news
+お問い合わせ contact
+
+要素
+上部 head
+下部 foot
+見出し・表題 heading
+表題・題名 title
+見出しの補足・記事の要約 lead
+一覧・表 list
+（表やデータなどの）項目 item
+
+種類
+画像、図、写真 img
+サムネイル thumb
+バナー bnr
+ボタン btn
+ロゴ logo
+ナビ nav
+
+状態
+開く open
+閉じる close

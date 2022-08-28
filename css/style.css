@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* 共通パーツ */
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1135px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: auto;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+header p {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#main-visual {
+  display: flex;
+  justify-content: center;
+}
+
+#main-visual img {
+  width: 100%;
+}
+
+
+/* 黒帯contact */
+#contact-bnr {
+  width: auto;
+  height: 280px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact-head p {
+  font-size: 17px;
+  text-align: center;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.contact-btn p {
+  font-size: 19px;
+}
+
+.btn {
+  width: 500px;
+  text-align: center;
+}
+
+/* link */
+#link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90px;
+}
+
+.title-nav {
+  width: 250px;
+  border-bottom: 2px solid;
+}
+
+.title-nav p {
+  text-align: center;
+}
+
+.link-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.link-title-item {
+  font-size: 12px;
+}
+
+/* 赤帯 */
+#about-trinias {
+  background-image: url(../images/tr-partner-img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 650px;
+}
+
+#about-trinias p {
+  color: white;
+}
+
+.about-trinias-area {
+  padding: 80px 0px;
+}
+
+.about-trinias-head {
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-trinias-item {
+  padding: 50px 0px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.about-trinias-logo {
+  text-align: center;
+}
+
+.about-trinias-foot {
+  font-size: 13px;
+}
+
+/* strength */
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-strong {
+  font-size: 25px;
+  border-bottom: 2px solid;
+  width: min-content;
+  text-align: center;
+}
+
+.title-small {
+  font-size: 14px;
+  text-align: center;
+}
