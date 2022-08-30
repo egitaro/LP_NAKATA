@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-  max-width: 1135px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  max-width: 1150px;
 }
 
 /* header */
@@ -142,21 +142,139 @@ header p {
   font-size: 13px;
 }
 
-/* strength */
 
+/* 共通パーツ　title */
 .title {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .title-strong {
   font-size: 25px;
   border-bottom: 2px solid;
-  width: min-content;
-  text-align: center;
+  display: inline-block;
 }
 
 .title-small {
   font-size: 14px;
+}
+
+/* strengths */
+#strengths {
+  padding: 80px;
+}
+
+/* commodity */
+#commodity {
+  padding: 40px;
+}
+
+.commodity-item {
+  font-size: 1.1rem;
   text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.commodity-img-area {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 幅せまのときこれの中身横2つずつ */
+.commodity-img-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+/* 幅ひろのときこれで横並び */
+.commodity-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.commodity-img {
+  margin: 15px;
+}
+
+.commodity-foot {
+  text-align: center;
+  padding: 70px 0;
+  font-size: 17px;
+}
+
+
+/* reason */
+#reason {
+  padding: 80px;
+  background-color: #F2F2F2;
+}
+
+.reason-head {
+  text-align: center;
+  font-size: 17px;
+  padding: 50px;
+}
+
+/* voice */
+#voice {
+  padding: 80px;
+}
+
+.voice-head {
+  text-align: center;
+  font-size: 17px;
+  padding: 50px;
+}
+
+.voice-area {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.voice-group {
+  border: 2px solid firebrick;
+  display: flex;
+  padding: 30px;
+}
+
+.voice-item {
+  margin: 0 0 0 50px;
+}
+
+.voice-title {
+  font-size: 25px;
+}
+
+.voice-about {
+  padding: 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.voice-about-item {
+  display: flex;
+}
+
+.voice-about-title {
+  text-align: center;
+  width: 120px;
+  background-color: red;
+  color: white;
+}
+
+.voice-about-item p {
+  padding: 15px;
+}
+
+.voice-foot {}
+
+/* flow */
+#flow {
+  padding: 80px;
+}
+
+/* contact */
+#contact {
+  padding: 80px;
 }
