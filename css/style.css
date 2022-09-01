@@ -146,12 +146,15 @@ header p {
 /* 共通パーツ　title */
 .title {
   text-align: center;
+  color: #C8151D;
 }
 
 .title-strong {
   font-size: 25px;
+  font-weight: 600;
   border-bottom: 2px solid;
   display: inline-block;
+  margin: 0 0 7px 0;
 }
 
 .title-small {
@@ -233,9 +236,10 @@ header p {
 }
 
 .voice-group {
-  border: 2px solid firebrick;
+  border: 2px solid #C8151D;
   display: flex;
   padding: 30px;
+  margin: 30px;
 }
 
 .voice-item {
@@ -244,30 +248,44 @@ header p {
 
 .voice-title {
   font-size: 25px;
+  font-weight: 600;
+  color: #C8151D;
 }
 
 .voice-about {
   padding: 20px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
 }
 
 .voice-about-item {
   display: flex;
+  font-size: 17px;
 }
 
 .voice-about-title {
   text-align: center;
-  width: 120px;
-  background-color: red;
+  width: 130px;
+  background-color: #C8151D;
   color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.voice-about-item p {
-  padding: 15px;
+.voice-about-p {
+  margin: 5px 10px;
+  padding: 5px;
 }
 
-.voice-foot {}
+.voice-foot {
+  font-size: 17px;
+  margin: 20px;
+}
+
+.voice-foot p {
+  margin: 5px;
+}
 
 /* flow */
 #flow {
@@ -276,5 +294,43 @@ header p {
 
 /* contact */
 #contact {
-  padding: 80px;
+  padding: 80px 0;
+}
+
+.contact-area {
+  max-width: 1150px;
+  display: flex;
+  margin: 30px auto;
+}
+
+.contact-group {
+  width: 800px;
+  margin: 20px;
+}
+
+.contact-item {
+  display: flex;
+}
+
+.contact-item-title {
+  width: 200px;
+  background-color: #C8151D;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* 個人情報 */
+.personal-info {
+  margin: auto;
+  max-width: 1100px;
+  background-color: #F2F2F2;
+}
+
+.personal-info-head {
+  padding: 40px;
+}
+
+.personal-info-title {
+  margin: 10px 0;
 }
