@@ -83,17 +83,29 @@ header p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
+  width: 1150px auto;
   height: 90px;
 }
 
 .title-nav {
   width: 250px;
+  text-decoration: none;
+}
+
+.title-nav:hover {
   border-bottom: 2px solid;
+  color: #C8151D;
+  transition: all 0.5s ease;
+}
+
+.title-nav:hover p {
+  color: #C8151D;
+  transition: all 0.7s ease;
 }
 
 .title-nav p {
   text-align: center;
+  color: black;
 }
 
 .link-title {
@@ -134,11 +146,15 @@ header p {
   text-align: center;
 }
 
-.about-trinias-logo {
+.trinias-logo {
   text-align: center;
 }
 
-.about-trinias-foot {
+.trinias-logo img {
+  width: 200px;
+}
+
+.trinias-foot {
   font-size: 13px;
 }
 
@@ -294,7 +310,7 @@ header p {
 
 /* contact */
 #contact {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 .contact-area {
@@ -316,8 +332,28 @@ header p {
   width: 200px;
   background-color: #C8151D;
   color: white;
-  margin: 5px;
+  margin: 7px 0;
   padding: 10px;
+}
+
+.contact-item-input {
+  width: 300px;
+  margin: 7px 0;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #C8151D;
+}
+
+.contact-textarea-title {
+  background-color: #C8151D;
+  color: white;
+  padding: 10px;
+}
+
+.contact-textarea {
+  border: solid #C8151D;
+  width: 530px;
+  height: 290px;
 }
 
 /* 個人情報 */
@@ -332,5 +368,138 @@ header p {
 }
 
 .personal-info-title {
+  font-weight: 600;
   margin: 10px 0;
+}
+
+.personal-info-roll {
+  background-color: #E0E0E0;
+  width: auto;
+  height: 250px;
+  margin: 30px;
+  padding: 30px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.roll-title {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.roll-item-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 7px 0 0 0;
+}
+
+.roll-item {
+  font-size: 12px;
+}
+
+.checkbox {
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+span {
+  color: #C8151D;
+}
+
+.personal-info-foot {
+  font-size: 13px;
+  margin: auto;
+  max-width: 1100px;
+}
+
+.personal-info-submit {
+  text-align: center;
+}
+
+.submit {
+  font-size: 17px;
+  width: 500px;
+  height: 50px;
+  background-color: #C8151D;
+  color: white;
+  border: none;
+  margin: 80px;
+}
+
+/* footer */
+#footer {
+  padding: 50px;
+  width: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer-item {
+  font-size: 17px;
+  margin: 20px;
+  text-align: center;
+}
+
+.footer-item p {
+  margin: 7px;
+}
+
+#footer a {
+  color: white;
+}
+
+.HP-link {
+  text-align: center;
+  background-color: #C8151D;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#foot-link {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1150px;
+  height: 90px;
+}
+
+#foot-link-foot p {
+  color: white;
+}
+
+.foot-title-nav {
+  width: 250px;
+  text-decoration: none;
+}
+
+.foot-title-nav:hover {
+  border-bottom: 2px solid #C8151D;
+  color: #C8151D;
+  transition: all 0.5s ease;
+}
+
+.foot-title-nav:hover p {
+  color: #C8151D;
+  transition: all 0.7s ease;
+}
+
+.foot-title-nav p {
+  text-align: center;
+}
+
+.foot-link-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.foot-link-title-item {
+  font-size: 12px;
 }

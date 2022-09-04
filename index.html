@@ -15,7 +15,6 @@
     </div>
   </header>
 
-
   <!-- メインビジュアル -->
   <section id="main-visual">
     <div>
@@ -40,26 +39,26 @@
   <!-- それぞれのセクションへのリンク -->
 
   <section id="link">
-    <div class="title-nav">
+    <a href="#strengths" class="title-nav">
       <p class="link-title">STRENGTHS</p>
       <p class="link-title-item">5つの強み</p>
-    </div>
-    <div class="title-nav">
+    </a>
+    <a href="#reason" class="title-nav">
       <p class="link-title">REASON</p>
       <p class="link-title-item">選ばれる理由</p>
-    </div>
-    <div class="title-nav">
+    </a>
+    <a href="#voice" class="title-nav">
       <p class="link-title">VOICE</p>
       <p class="link-title-item">パートナー様の声</p>
-    </div>
-    <div class="title-nav">
+    </a>
+    <a href="#flow" class="title-nav">
       <p class="link-title">FLOW</p>
       <p class="link-title-item">ご契約の流れ</p>
-    </div>
-    <div class="title-nav">
+    </a>
+    <a href="contact" class="title-nav">
       <p class="link-title">CONTACT</p>
       <p class="link-title-item">お問い合わせ</p>
-    </div>
+    </a>
   </section>
 
   <!-- 赤帯とロゴ -->
@@ -71,9 +70,9 @@
       <div class="about-trinias-item">
         <p>トリニアスは現在、全国の販売パートナー様とともに成長を続けております。<br> 取引実績も評価され、非常に高額な条件をいただいております。<br> IT・通信回線をはじめ、モバイル回線、WiFi端末、ウォーターサーバー等、様々なニーズにお応えできるよう商材を取りそろえております。<br> 新規事業の商材を探されている企業様、起業を目指されている個人様、副業を探されている方、<br> 経験・未経験、年齢を問わずお気軽にお問い合わせください。<br> 個人・法人・複数名での活動も可能です。業界屈指の高額インセンティブをご用意してお待ちしております。</p>
       </div>
-      <div class="about-trinias-logo">
-        <p>トリニアスロゴ</p>
-        <p class="about-trinias-foot">株式会社トリニアス</p>
+      <div class="trinias-logo">
+        <img src="./images/tr-partner-logo-wh.svg">
+        <p class="trinias-foot">株式会社トリニアス</p>
       </div>
     </div>
   </section>
@@ -427,141 +426,165 @@
       <p class="title-small">お問い合わせ</p>
     </div>
 
-    <div class="contact-area">
+    <form action="" method="post" name="">
 
-      <div class="contact-group">
-        <div class="contact-item">
-          <p class="contact-item-title">会社名</p>
-          <p>株式会社トリニアス</p>
+      <div class="contact-area">
+
+        <div class="contact-group">
+          <div class="contact-item">
+            <p class="contact-item-title">会社名</p>
+            <input type="text" class="contact-item-input" placeholder="株式会社トリニアス">
+          </div>
+          <div class="contact-item">
+            <p class="contact-item-title">担当者名＊</p>
+            <input type="text" class="contact-item-input" placeholder="山田太郎">
+          </div>
+          <div class="contact-item">
+            <p class="contact-item-title">ふりがな＊</p>
+            <input type="text" class="contact-item-input" placeholder="やまだたろう">
+          </div>
+          <div class="contact-item">
+            <p class="contact-item-title">メールアドレス＊</p>
+            <input type="text" class="contact-item-input" placeholder="trinias@example.com">
+          </div>
+          <div class="contact-item">
+            <p class="contact-item-title">メールアドレス(確認)＊</p>
+            <input type="text" class="contact-item-input" placeholder="trinias@example.com">
+          </div>
+          <div class="contact-item">
+            <p class="contact-item-title">お電話番号＊</p>
+            <input type="text" class="contact-item-input" placeholder="09012345678">
+          </div>
         </div>
-        <div class="contact-item">
-          <p class="contact-item-title">担当者名＊</p>
-          <p>山田太郎</p>
+
+        <div class="contact-group">
+          <div>
+            <p class="contact-textarea-title">自由記入欄</p>
+            <textarea class="contact-textarea" placeholder="希望業態、簡単な職務経歴などをご記入ください。"></textarea>
+          </div>
         </div>
-        <div class="contact-item">
-          <p class="contact-item-title">ふりがな＊</p>
-          <p>やまだたろう</p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-item-title">メールアドレス＊</p>
-          <p>trinias@example.com</p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-item-title">メールアドレス(確認)＊</p>
-          <p>trinias@example.com</p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-item-title">お電話番号＊</p>
-          <p>09012345678</p>
-        </div>
+
       </div>
 
-      <div class="contact-group">
-        <div>
-          <p class="contact-item-title">自由記入欄</p>
-          <p>希望業態、簡単な職務経歴などをご記入ください。</p>
-        </div>
-      </div>
 
-    </div>
+      <!-- 個人情報取り扱い -->
+      <div class="personal-info">
 
-
-    <!-- 個人情報取り扱い -->
-    <div class="personal-info">
-      <div class="personal-info-head">
-        <p class="personal-info-title">個人情報の取り扱いに関して</p>
-        <p>弊社は、HP上の「個人情報保護方針」に従い、個人情報を適切に取り扱います。<br>
+        <div class="personal-info-head">
+          <p class="personal-info-title">個人情報の取り扱いに関して</p>
+          <p>弊社は、HP上の「個人情報保護方針」に従い、個人情報を適切に取り扱います。<br>
       下記「個人情報の取扱いについて」をご確認いただき、宜しければ「個人情報の取扱いについて同意する」にチェックをして、内容を送信して下さい。</p>
+        </div>
+
+        <!-- ロール -->
+        <div class="personal-info-roll">
+          <p class="roll-title">個人情報の取り扱いについて</p>
+
+          <p class="roll-item-title">１．組織の名称又は氏名</p>
+          <p class="roll-item">株式会社トリニアス</p>
+
+          <p class="roll-item-title">２．個人情報保護管理者（若しくはその代理人）の氏名又は職名、所属及び連絡先</p>
+          <p class="roll-item">管理部門　個人情報保護担当　03-6273-9755</p>
+
+          <p class="roll-item-title">３．個人情報の利用目的</p>
+          <p class="roll-item">
+          ・販売パートナー応募者様へのご案内のため<br>
+          ・販売パートナー応募者様へのご登録手続きのため<br>
+          ・販売パートナー応募者様への契約書類送付や商談訪問のご住所の確認のため<br>
+          ・販売パートナー応募者様のご契約内容管理のため<br>
+          ・各種お問合わせ対応のため</p>
+
+          <p class="roll-item-title">４．個人情報の取り扱い業務の委託</p>
+          <p class="roll-item">個人情報の取扱業務の全部または一部を外部に業務委託する場合があります。その際、弊社は、個人情報を適切に保護できる管理体制を敷き実行していることを条件として委託先を厳選したうえで、機密保持契約を委託先と締結し、お客様の個人情報を厳密に管理させます。</p>
+
+          <p class="roll-item-title">５．個人情報の開示等の請求</p>
+          <p class="roll-item">お客様は、弊社に対してご自身の個人情報の開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）に関して、当社問合わせ窓口に申し出ることができます。<br>
+          その際、弊社はお客様ご本人を確認させていただいたうえで、合理的な期間内に対応いたします。<br>
+
+          なお、個人情報に関する弊社問合わせ先は、次の通りです。<br>
+          株式会社トリニアス　個人情報問合せ窓口<br>
+          〒169-0072　東京都新宿区大久保2丁目4-15　サンライズ新宿5F<br>
+          TEL: 03-6273-9755 FAX: 03-6273-9754<br>
+          メールアドレス: privacy@trinias.co.jp<br>
+          受付時間: 10：00～19：00(土・日曜日、祝日、年末年始、お盆期間、ゴールデンウィークを除く)</p>
+
+          <p class="roll-item-title">６．個人情報を提供されることの任意性について</p>
+          <p class="roll-item">販売パートナー応募者様がご自身の個人情報を弊社に提供されるか否かは、応募者の任意ですが、もしご提供されない場合には、適切な販売パートナーのご案内や契約締結ができない場合がありますので予めご了承ください。</p>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" id="OK">
+          <label for="OK"><span>*</span>個人情報の取り扱いについて同意する</label>
+        </div>
+
       </div>
 
-      <!-- ロール -->
-      <div>
-        個人情報の取り扱いについて
-        １．組織の名称又は氏名
-        株式会社トリニアス
-
-        ２．個人情報保護管理者（若しくはその代理人）の氏名又は職名、所属及び連絡先
-        管理部門　個人情報保護担当　03-6273-9755
-
-        ３．個人情報の利用目的
-        ・販売パートナー応募者様へのご案内のため
-
-        ・販売パートナー応募者様へのご登録手続きのため
-
-        ・販売パートナー応募者様への契約書類送付や商談訪問のご住所の確認のため
-
-        ・販売パートナー応募者様のご契約内容管理のため
-
-        ・各種お問合わせ対応のため
-
-        ４．個人情報の取り扱い業務の委託
-        個人情報の取扱業務の全部または一部を外部に業務委託する場合があります。その際、弊社は、個人情報を適切に保護できる管理体制を敷き実行していることを条件として委託先を厳選したうえで、機密保持契約を委託先と締結し、お客様の個人情報を厳密に管理させます。
-
-        ５．個人情報の開示等の請求
-        お客様は、弊社に対してご自身の個人情報の開示等（利用目的の通知、開示、内容の訂正・追加・削除、利用の停止または消去、第三者への提供の停止）に関して、当社問合わせ窓口に申し出ることができます。
-
-        その際、弊社はお客様ご本人を確認させていただいたうえで、合理的な期間内に対応いたします。
-
-        なお、個人情報に関する弊社問合わせ先は、次の通りです。
-
-        株式会社トリニアス　個人情報問合せ窓口
-
-        〒169-0072　東京都新宿区大久保2丁目4-15　サンライズ新宿5F
-
-        TEL: 03-6273-9755 FAX: 03-6273-9754
-
-        メールアドレス: privacy@trinias.co.jp
-
-        受付時間: 10：00～19：00(土・日曜日、祝日、年末年始、お盆期間、ゴールデンウィークを除く)
-
-        ６．個人情報を提供されることの任意性について
-        販売パートナー応募者様がご自身の個人情報を弊社に提供されるか否かは、応募者の任意ですが、もしご提供されない場合には、適切な販売パートナーのご案内や契約締結ができない場合がありますので予めご了承ください。
+      <div class="personal-info-foot">
+        <p>※「*」は必須項目です。</p>
+        <p>※フォーム送信後、1〜3営業日以内にご返信致します。</p>
       </div>
 
-      <div>
-        チェックボックス　*個人情報の取り扱いについて同意する
+      <div class="personal-info-submit">
+        <input type="submit" class="submit" value="内容を送信する">
       </div>
 
-    </div>
-
-    <div>
-      <p>※「*」は必須項目です。</p>
-      <p>※フォーム送信後、1〜3営業日以内にご返信致します。</p>
-    </div>
-    <div>
-      内容を送信する
-    </div>
-
+    </form>
   </section>
-
 
 
   <!-- フッダー -->
   <section id="footer">
-    <div>
-      トリニアスロゴ
-      株式会社トリニアス
+
+    <div class="trinias-logo">
+      <img src="./images/tr-partner-logo-wh.svg">
+      <p class="trinias-foot">株式会社トリニアス</p>
     </div>
-    <div>
-      <p>〒169-0072</p>
-      <p>東京都新宿区大久保2-4-15 サンライズ新宿5階</p>
+    <div class="footer-item">
+      <p>〒169-0072
+      東京都新宿区大久保2-4-15 サンライズ新宿5階</p>
 
       <p>資本金：10,000,000円</p>
 
       <p> TEL：03-6273-9755 / FAX：03-6273-9754</p>
       <p>従業員数：グループ連結150名(パート・アルバイト含む)</p>
     </div>
-    <div>
-      会社ホームページはコチラ
-    </div>
+
+
+    <a href=" https://trinias.co.jp/" class="HP-link">会社ホームページはコチラ</a>
+
+
 
     <!-- それぞれのセクションへのリンク -->
-    <section id="link">
+    <section id="foot-link">
+      <a href="#strengths" class="foot-title-nav">
+        <p class="foot-link-title">STRENGTHS</p>
+        <p class="foot-link-title-item">5つの強み</p>
+      </a>
+      <a href="#reason" class="foot-title-nav">
+        <p class="foot-link-title">REASON</p>
+        <p class="foot-link-title-item">選ばれる理由</p>
+      </a>
+      <a href="#voice" class="foot-title-nav">
+        <p class="foot-link-title">VOICE</p>
+        <p class="foot-link-title-item">パートナー様の声</p>
+      </a>
+      <a href="#flow" class="foot-title-nav">
+        <p class="foot-link-title">FLOW</p>
+        <p class="foot-link-title-item">ご契約の流れ</p>
+      </a>
+      <a href="contact" class="foot-title-nav">
+        <p class="foot-link-title">CONTACT</p>
+        <p class="foot-link-title-item">お問い合わせ</p>
+      </a>
     </section>
 
-    <p>個人情報保護方針</p>
-    <p>Copyright © 2019 株式会社トリニアス</p>
-    <p>All Rights Reserved.</p>
+    <a href="https://trinias.co.jp/privacy-policy/">個人情報保護方針</a>
+
+    <div class="footer-item">
+      <p>Copyright © 2019 株式会社トリニアス</p>
+      <p>All Rights Reserved.</p>
+    </div>
+
   </section>
 
 </body>
