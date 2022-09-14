@@ -2,6 +2,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 /* 共通パーツ */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-size: 1rem;
@@ -306,6 +309,88 @@ header p {
   font-size: 17px;
 }
 
+/* imgしゅっ */
+/* 1群 */
+.delay01 {
+  animation-delay: 0.2s;
+}
+
+.delay02 {
+  animation-delay: 0.4s;
+}
+
+.delay03 {
+  animation-delay: 0.6s;
+}
+
+.delay04 {
+  animation-delay: 0.8s;
+}
+
+.delay05 {
+  animation-delay: 1s;
+}
+
+/* 2群 */
+.delay06 {
+  animation-delay: 1.2s;
+}
+
+.delay07 {
+  animation-delay: 1.4s;
+}
+
+.delay08 {
+  animation-delay: 1.6s;
+}
+
+.delay09 {
+  animation-delay: 1.8s;
+}
+
+/* 3群 */
+.delay10 {
+  animation-delay: 2s;
+}
+
+.delay11 {
+  animation-delay: 2.2s;
+}
+
+/* 4群 */
+.delay12 {
+  animation-delay: 2.4s;
+}
+
+.delay13 {
+  animation-delay: 2.6s;
+}
+
+.delay14 {
+  animation-delay: 2.8s;
+}
+
+/* 5群 */
+.delay15 {
+  animation-delay: 3s;
+}
+
+.delay16 {
+  animation-delay: 3.2s;
+}
+
+/* 6群 */
+.delay17 {
+  animation-delay: 3.4s;
+}
+
+.delay18 {
+  animation-delay: 3.6s;
+}
+
+.delay19 {
+  animation-delay: 3.8s;
+}
 
 /* reason */
 #reason {

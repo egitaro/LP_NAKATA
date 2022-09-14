@@ -134,12 +134,12 @@ $(function () {
   });
 });
 
-//commodity img くるりん
+//commodity img しゅっ
 $(function () {
-  $('.commodity-img-box').hide();
+  $('.commodity-img').hide();
   $(window).scroll(function () {
-    if ($(window).scrollTop() > 3000) {
-      $('.delay01').fadeIn();
+    if ($(window).scrollTop() > 2000) {
+      $('.commodity-img').fadeIn();
     }
   });
 });
