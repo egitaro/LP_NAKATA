@@ -27,12 +27,13 @@ header {
 header p {
   color: white;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #main-visual {
   display: flex;
   justify-content: center;
+  height: 600px;
 }
 
 #main-visual img {
@@ -125,16 +126,27 @@ header p {
 
 /* link */
 #link {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 1150px auto;
   height: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+  display: none;
+}
+
+#link.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  display: flex;
 }
 
 .title-nav {
   width: 250px;
   text-decoration: none;
+  border-bottom: 2px solid white;
 }
 
 .title-nav:hover {
@@ -236,6 +248,24 @@ header p {
 .strength-img img {
   margin: 10px;
 }
+
+/* 時間差くるん */
+.delay-time01 {
+  animation-delay: 0.5s;
+}
+
+.delay-time02 {
+  animation-delay: 1s;
+}
+
+.delay-time03 {
+  animation-delay: 1.5s;
+}
+
+.delay-time04 {
+  animation-delay: 2s;
+}
+
 
 /* commodity */
 #commodity {
