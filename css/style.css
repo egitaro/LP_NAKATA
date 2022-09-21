@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+
+/* PC　1000pxからはここを読み込む */
+
 /* 共通パーツ */
 html {
   scroll-behavior: smooth;
@@ -36,7 +39,7 @@ header p {
 #main-visual {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 0 auto;
 }
 
 #main-visual img {
@@ -97,7 +100,6 @@ header p {
   color: white;
   margin: 0 30px;
   border-radius: 10px;
-  width: 500px;
   text-align: center;
   border: solid 3px #C8151D;
   transition: 0.4s ease-in-out;
@@ -112,6 +114,9 @@ header p {
   transition: 0.4s ease-in-out;
 }
 
+.btn-tb {
+  display: inline;
+}
 
 
 .btn:hover {
@@ -820,3 +825,204 @@ span {
 .foot-link-title-item {
   font-size: 12px;
 }
+
+
+
+/*　タブレット　画面サイズが600pxから999pxまではここを読み込む　*/
+@media screen and (min-width:600px) and (max-width:999px) {
+
+
+  header p {
+    font-size: 12px;
+    margin: 0 0 0 20px;
+  }
+
+  /* 黒帯contact */
+  #contact-bnr {
+    height: 200px;
+  }
+
+  .contact-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .contact-head p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 10px;
+  }
+
+  .br-pc {
+    display: none;
+  }
+
+  .contact-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .btn {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+    margin: 5px 25px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid 3px #C8151D;
+    transition: 0.4s ease-in-out;
+  }
+
+  .btn a {
+    border-radius: 10px;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s ease-in-out;
+  }
+
+  a.tb {
+    padding: 12px;
+  }
+
+  .btn-tb {
+    font-size: 10px;
+    display: block;
+  }
+
+  /* 赤帯 */
+  #about-trinias {
+    background-image: url(../images/tr-partner-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+  }
+
+  #about-trinias p {
+    color: white;
+  }
+
+  .about-trinias-area {
+    padding: 30px 20px;
+  }
+
+  .about-trinias-head {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .about-trinias-item {
+    padding: 30px 0px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .trinias-logo {
+    text-align: center;
+  }
+
+  .trinias-logo img {
+    width: 120px;
+  }
+
+  .trinias-foot {
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  /* 共通パーツ　title */
+  .title {
+    text-align: center;
+    color: #C8151D;
+  }
+
+  .title-strong {
+    font-size: 26px;
+    font-weight: 500;
+    border-bottom: 2px solid;
+    display: inline-block;
+    margin: 0 0 7px 0;
+  }
+
+  .title-small {
+    font-size: 16px;
+  }
+
+  /* strengths */
+  #strengths {
+    padding: 20px 0px;
+  }
+
+  .strength-img {
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+
+  .strength-img img {
+    width: 300px;
+    margin: 10px;
+  }
+
+  /* commodity */
+  #commodity {
+    padding: 0px;
+  }
+
+  .commodity-item {
+    font-size: 10px;
+    /* text-align: center; */
+    margin: 0;
+    /* width: 100px; */
+  }
+
+  .commodity-img-area {}
+
+  /* 幅せまのときこれの中身横2つずつ */
+  .commodity-img-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .commodity-img-group img {}
+
+  /* 幅ひろのときこれで横並び */
+  .commodity-img-box {
+    display: block;
+    /* justify-content: left;
+    flex-wrap: wrap; */
+  }
+
+  .commodity-img {
+    /* margin: 15px;*/
+    /* width: 300px; */
+  }
+
+  .commodity-img img {
+    /* width: 300px; */
+  }
+
+  .commodity-foot {
+    /* text-align: center;
+    padding: 70px 0;
+    font-size: 17px; */
+  }
+
+
+}
+
+
+
+/*　スマホ　画面サイズが599pxまではここを読み込む　*/
+@media screen and (max-width:599px) {}
