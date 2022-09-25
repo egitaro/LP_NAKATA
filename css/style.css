@@ -118,7 +118,6 @@ header p {
   display: inline;
 }
 
-
 .btn:hover {
   background-color: white;
   color: #C8151D;
@@ -492,6 +491,10 @@ header p {
   background-color: #F2F2F2;
 }
 
+.br-tb {
+  display: none;
+}
+
 .slider-area {
   width: 20vw;
   /*スライダーを60vwにしてレスポンシブ化*/
@@ -768,25 +771,29 @@ span {
   width: 300px;
   border-radius: 5px;
   padding: 10px;
-  text-decoration: none;
-  color: white;
   border: solid 2px #C8151D;
   transition: 0.5s;
+}
+
+.HP-link a {
+  text-decoration: none;
+  color: white;
+
 }
 
 .HP-link:hover {
   background-color: white;
-  color: #C8151D;
   border: solid 2px #C8151D;
   transition: 0.5s;
+  color: #C8151D;
 }
 
-#foot-link {
+.foot-link {
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1150px;
+  width: auto;
   height: 90px;
   margin: 70px 0;
 }
@@ -825,6 +832,8 @@ span {
 .foot-link-title-item {
   font-size: 12px;
 }
+
+
 
 
 
@@ -1116,27 +1125,37 @@ span {
 
   /* flow */
   #flow {
-    padding: 80px;
+    padding: 40px 5px;
     background-color: #F2F2F2;
   }
 
+  .slider {
+    width: 90%;
+  }
+
+  .br-tb {
+    display: inline;
+  }
+
   .slider-area {
-    width: 20vw;
+    width: 23vw;
     /*スライダーを60vwにしてレスポンシブ化*/
-    margin: 30px 30px 0 30px;
+    margin: 30px 8px 40px 8px;
   }
 
   .slider-title {
     font-size: 19px;
+    font-weight: 600;
     color: #C8151D;
     text-align: center;
   }
 
   .slider-title2 {
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 500;
     color: #C8151D;
     text-align: center;
+    margin: 8px 0;
   }
 
   .slider-item {
@@ -1144,7 +1163,198 @@ span {
     margin: 10px;
   }
 
+  .slick-prev,
+  .slick-next {
+    border-top: 6px solid #303030;
+    border-right: 6px solid #303030;
+    height: 13px;
+    width: 13px;
+  }
+
+
+  /* contact */
+  #contact {
+    margin: 80px 20px 20px 20px;
+    padding: 0px;
+  }
+
+  .contact-area {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .contact-group {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .contact-item-title {
+    text-align: left;
+    width: auto;
+    background-color: #C8151D;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .contact-item-input {
+    width: auto;
+    margin: 7px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #C8151D;
+  }
+
+  .contact-textarea-title {
+    background-color: #C8151D;
+    color: white;
+    width: auto;
+    padding: 10px;
+  }
+
+  .contact-textarea {
+    border: solid #C8151D;
+    width: 97%;
+    height: 170px;
+    padding: 8px;
+  }
+
+  /* 個人情報 */
+  .personal-info {
+    margin: auto;
+    max-width: 1100px;
+    background-color: #F2F2F2;
+  }
+
+  .personal-info-head {
+    padding: 40px 40px 0 40px;
+  }
+
+  .personal-info-title {
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .personal-info-item {
+    font-size: 12px;
+  }
+
+  .personal-info-roll {
+    background-color: #E0E0E0;
+    width: auto;
+    height: 150px;
+    margin: 20px;
+    padding: 30px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .roll-title {
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .roll-item-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 7px 0 0 0;
+  }
+
+  .roll-item {
+    font-size: 12px;
+  }
+
+  .checkbox {
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 30px 0;
+  }
+
+  span {
+    color: #C8151D;
+  }
+
+  .personal-info-foot {
+    font-size: 10px;
+    margin: auto;
+    max-width: 1100px;
+  }
+
+  .personal-info-submit {
+    text-align: center;
+    width: 100%;
+  }
+
+  .submit {
+    text-align: center;
+    font-size: 17px;
+    height: 50px;
+    background-color: #C8151D;
+    color: white;
+    border: none;
+    margin: 80px 0 20px 0;
+    width: 100%;
+  }
+
+  .submit:hover {
+    background-color: white;
+    color: #C8151D;
+    border: solid 2px #C8151D;
+  }
+
+
+  /* footer */
+  #footer {
+    padding: 50px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-item {
+    font-size: 12px;
+    margin: 20px;
+    text-align: center;
+  }
+
+
+  .foot-link {
+    display: none;
+  }
+
+  .HP-link {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #C8151D;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: solid 2px #C8151D;
+    transition: 0.5s;
+  }
+
+  .foot-a {
+    margin: 30px 0 0 0;
+  }
+
 }
+
+
 
 
 
