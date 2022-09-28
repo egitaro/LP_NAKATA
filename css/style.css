@@ -1352,6 +1352,47 @@ span {
     margin: 30px 0 0 0;
   }
 
+  /* ボタン全体 */
+  #page_top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #C8151D;
+    border-radius: 45%;
+    border: solid 2px #C8151D
+  }
+
+  /* Font Awesome */
+  #page_top::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f0d8';
+    /*アイコン*/
+    font-size: 25px;
+    color: white;
+    /*アイコンの色*/
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  #page_top:hover {
+    background-color: white;
+  }
+
+  #page_top:hover::before {
+    color: #C8151D;
+
+  }
+
 }
 
 
